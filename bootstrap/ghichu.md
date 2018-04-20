@@ -9,9 +9,13 @@ List of questions here
 * USE CDN
 * Other
 
-### Prerequisites
+### Some useful questions
 
-What things you need to install the software and how to install them
+* Meaning of Meta Tag Viewport?
+```
+shrink-to-fit=no (https://github.com/h5bp/html5-boilerplate/issues/1815)
+
+```
 
 ```
 Give examples
