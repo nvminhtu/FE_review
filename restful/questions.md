@@ -12,3 +12,5 @@ REST định nghĩa các quy tắc kiến trúc để bạn thiết kế Web ser
 Tại sao dùng REST đơn giản vì nó đã được hỗ trợ sẵn dựa trên HTTP, một giao thức vô cùng phổ biến.
 Do là webservice nên kiểu dữ liệu truyền tải (Internet Media Type) là đa dạng. Và phổ thông thường dùng là JSON và XML.
 ```
+
+* [API là gì](https://techtalk.vn/tat-tan-tat-ve-api.html)
