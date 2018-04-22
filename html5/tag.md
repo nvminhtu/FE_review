@@ -26,3 +26,5 @@ Replacement by CSS
 
 * [HTML5 cheatsheet](https://makeawebsitehub.com/the-html-5-mega-cheat-sheet/)
 * [Học HTML Tiếng Việt](http://timoday.edu.vn/category/khoa-hoc/html/)
+* [Hoàn thành test trên W3C](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML)
+
