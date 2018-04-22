@@ -25,3 +25,4 @@ Replacement by CSS
 ```
 
 * [HTML5 cheatsheet](https://makeawebsitehub.com/the-html-5-mega-cheat-sheet/)
+* [Học HTML Tiếng Việt](http://timoday.edu.vn/category/khoa-hoc/html/)
