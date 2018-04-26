@@ -1,10 +1,9 @@
 # POPULAR CSS TECHNIQUE
 
-List of HTML5, CSS3, Javascript Questions
+List of HTML5 Questions
 
-
+* 
 ```
-* Organize CSS: BEM
 
 ```
 
