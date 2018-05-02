@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript - Array </h2>
+    <p>One Character</p>
+    <p id="first"></p>
+    <p>Show all characters</p>
+    <p id="all"></p>
+    <script>
+        // method 1: declare array
+        var characters = ["Monster", "Princess", "King", "Archer", "Knight"];
+
+        // access one array item
+        document.getElementById("first").innerHTML = characters[0];
+        document.getElementById("all").innerHTML = characters;
+    </script>
+    <p>Length Array</p>
+    <p id="length"></p>
+    <script>
+        var length = characters.length;
+        document.getElementById("length").innerHTML = length;
+    </script>
+    
+    <p>Short array</p>
+    <p>Array after sorting</p>
+    <p id="sorted"></p>
+    <script>
+        characters.sort();
+        document.getElementById("sorted").innerHTML = characters;
+    </script>
+
+    <p>Looping Array</p>
+    <p>Show all list of fruits</p>
+    <p id="fruits"></p>
+    <script>
+         var fruits, len, i, customHTML;
+         
+         fruits = ["lemon","orange","melon","apple"];
+         fruits.push("pineapple");
+
+         len = fruits.length;
+         
+         customHTML = "<ul>";
+         for(i = 0; i < len ; i ++ ) {
+             customHTML += "<li>" + fruits[i] + "</li>";
+         }
+         customHTML += "</ul>";
+         
+         document.getElementById("fruits").innerHTML = customHTML;
+
+         // adding item to Arrays
+         
+    </script>
+    <p>The difference between Array and Object</p>
+    <ul>
+        <li>Array use number indexed</li>
+        <li>Object use name indexed</li>
+    </ul>
+    <p>Best practices</p>
+    <ul>
+        <li>Avoid using new Array()</li>
+    </ul>
+    <script>
+        var arr1 = new Array();
+        var arr2 = []; // declare array
+    </script>
+    <script>
+        // Check if array?
+        var kk = ["ass","bb","cc"];
+        console.log(Array.isArray(kk));
+    </script>
+</body>
+</html>
