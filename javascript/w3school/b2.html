@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #hide_content {
+            display: none;
+        }
+    </style>
+    <h2>Javascript can hide elements</h2>
+    <p id="hide_content">This content is hidden</p>
+    <button type="button" class="btn btn-submit" id="close_btn" onclick="document.getElementById('hide_content').style.display='block';">Click to open content</button>
+    <button type="button" class="btn btn-submit" id="open_btn" onclick="document.getElementById('hide_content').style.display='none';">Click to hide content</button>
+</body> 
+</html>

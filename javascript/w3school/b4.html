@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How many ways to show javascript result in Frontend</title>
+</head>
+<body>
+    <p>There has 4 ways to output javascript</p>
+    <ul>
+        <li>Writing in HTML element: using .innerHTML</li>
+        <li>Writing in HTML output: using document.write()</li>
+        <li>Output to Browseer Console: using console.log</li>
+        <li>Show in Alertbox: using alert()</li>
+    </ul>
+    <p>1.Using innerHTML</p>
+    <p id="demo"></p>
+    
+    <script>
+        document.getElementById("demo").innerHTML = 4 + 5;
+    </script>
+
+    <p>2.Using document.write()</p>
+    <p id="demo2"></p>
+    <script>
+        document.write("Demo 2 here");
+    </script>
+
+    <p>3.Using console.log</p>
+    <p id="demo3"></p>
+    <script>
+        console.log("Web here!");
+    </script>
+
+    <p>4.Using Alertbox</p>
+    <script>
+        alert("using Alerbox");
+    </script>
+</body>
+</html>
