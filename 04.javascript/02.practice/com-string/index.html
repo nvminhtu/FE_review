@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+    
+    <h2>JavaScript String Methods</h2>
+
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo">Please visit Google!</p>
+
+    <script>
+    function myFunction() {
+        var str = document.getElementById("demo").innerHTML; 
+        var txt = str.replace(/GOOGLE/i,"Facebook");
+        document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
