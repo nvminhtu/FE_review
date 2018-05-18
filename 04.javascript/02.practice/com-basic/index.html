@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Demo Javascript</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <p id="demo">JavaScript can change HTML content.</p>
+    
+    <!-- change width of reactangle -->
+    <button onclick="document.getElementById('rectman').style='width:50px;'">Minimize rectangle</button>
+    <p id="rectman" style="width: 100px;" class="rectangle">This is rectangle</p>
+    <button onclick="document.getElementById('rectman').style='width: 200px ;'">Maximize rectangle</button>
+
+    <!-- change HTML style by CSS style-->   
+    <p id="content">This is my javascript exercies. I want to become an expert in Javascript</p>
+    <button onclick="document.getElementById('content').style.fontSize='32px;'">Increase Fontsize</button>
+
+    <!-- show/hide an element in CSS -->
+    <p id="gaming-box">GAMING BOX</p>
+    <button onclick="document.getElementById('gaming-box').style.display='block';">Display Gaming Box</button>
+    <button onclick="document.getElementById('gaming-box').style.display='none';">Hide Gaming Box</button>
+    <script src="index.js"></script>
+</body>
+</html>
