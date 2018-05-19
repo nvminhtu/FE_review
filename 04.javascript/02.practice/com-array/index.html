@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="arrM"></div>
+    <script>
+        arrM = ["Kia","Toyota","Huyndai","BMW"];
+        var disArrM = document.getElementById('arrM');
+        arrM.push('Honda');
+        console.log(arrM);
+
+        //loop array
+        var flen = arrM.length;
+        var txt = '<ul>';
+        for(var i = 0; i < flen; i++) {
+            txt += '<li>' + arrM[i] + '</li>';
+        }
+        txt += '</ul>';
+        disArrM.innerHTML = txt;
+    </script>
+</body>
+</html>
